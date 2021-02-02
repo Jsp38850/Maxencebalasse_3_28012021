@@ -18,6 +18,20 @@ h1 {
   font-family: "Shrikhand" sans-serif;
 }
 
+.btn {
+  color: white;
+  background: #9356DC;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #9356DC;
+  color: #FF79DA;
+}
+.btn--full-width {
+  width: 100%;
+  margin: 0 auto;
+}
+
 .logo {
   margin-left: 24%;
   margin-top: 20px;

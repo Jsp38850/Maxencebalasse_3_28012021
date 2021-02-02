@@ -1,0 +1,13 @@
+@mixin btn {
+    color: $colour-card;
+    background: $colour-primary;
+    cursor: pointer;
+    &:hover{
+        background: $colour-primary;
+        color: $colour-secondary;
+    }
+    &--full-width {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
