@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Shrikhand";
+  src: url("../../public/font/Shrikhand.otf");
+}
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Shrikhand", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */
