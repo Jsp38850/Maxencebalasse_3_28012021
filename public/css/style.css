@@ -29,17 +29,55 @@ h1 {
 
 #section2, #section4 {
   background-color: #f6f6f6;
+  width: 100%;
 }
 
-.display {
+#section4 {
+  height: 100%;
+}
+
+.flex {
   display: flex;
+  justify-content: center;
+}
+
+.flex_row {
   flex-direction: row;
 }
 
+.flex_column {
+  flex-direction: column;
+}
+
 .card img {
-  width: 150px;
+  width: 100%;
   object-fit: cover;
-  height: 100px;
+  height: 75%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+#section3 h1 {
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 15px;
+  height: 280px;
+}
+.card h2 {
+  margin-left: 15px;
+}
+.card p {
+  margin-left: 15px;
+}
+
+footer {
+  background-color: #353535;
 }
 
 /*# sourceMappingURL=style.css.map */
