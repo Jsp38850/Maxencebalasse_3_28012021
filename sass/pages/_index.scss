@@ -1,0 +1,18 @@
+#section1{
+    background-color: $colour-darkgrey;
+}
+
+#section2, #section4{
+    background-color: $colour-lightgrey;
+}
+
+.display{
+    display: flex;
+    flex-direction: row;
+}
+
+.card img{
+    width: 150px;
+    object-fit: cover;
+    height: 100px;
+}
