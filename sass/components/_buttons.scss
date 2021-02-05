@@ -9,3 +9,10 @@
 .btn_fonction{
     @include btn_fonction
 }
+
+.grp_btn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}

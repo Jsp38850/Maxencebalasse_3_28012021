@@ -1,15 +1,26 @@
 footer{
      background-color: $colour-footer;
+     height: 230px;
+
     p{
         color: $colour-white;
+        padding-top: 10px;
+          padding-left: 5%;
+
+     i{
+          color: $colour-white;
+          margin-right: 10px;
+     }
     }
 
    h2{
         color: $colour-white;
         font-family: 'Shrikhand';
+        padding-top: 30px;
+        padding-left: 5%;
+        padding-bottom: 20px;
+        font-weight: normal;
    }
 
-   i{
-        color: $colour-white;
-   }
+  
 }

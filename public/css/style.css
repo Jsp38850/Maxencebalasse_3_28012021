@@ -40,8 +40,11 @@ h1 {
   color: white;
   background: linear-gradient(170deg, #FF79DA, #9356DC);
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 30px;
   padding: 15px;
+  display: block;
+  margin: auto;
+  width: 160px;
 }
 
 .btn_fonction {
@@ -58,9 +61,17 @@ h1 {
   margin-right: 10px;
 }
 
+.grp_btn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .logo {
   margin: auto;
-  margin-top: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   display: block;
 }
 
@@ -68,44 +79,60 @@ h1 {
   background-color: #eaeaea;
   width: 100%;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .localisation i {
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 footer {
   background-color: #353535;
+  height: 230px;
 }
 footer p {
   color: white;
+  padding-top: 10px;
+  padding-left: 5%;
+}
+footer p i {
+  color: white;
+  margin-right: 10px;
 }
 footer h2 {
   color: white;
   font-family: "Shrikhand";
-}
-footer i {
-  color: white;
+  padding-top: 30px;
+  padding-left: 5%;
+  padding-bottom: 20px;
+  font-weight: normal;
 }
 
 #section1 {
   background-color: #f6f6f6;
-  height: 150px;
+  height: 100%;
+}
+#section1 h1 {
+  padding-top: 30px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+#section1 p {
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#section1 .btn_section1 {
+  padding-bottom: 25px;
+  padding-top: 25px;
 }
 
-#section2, #section1, #section3 h1 {
-  text-align: center;
+#section2 h1 {
+  padding-top: 35px;
+  margin-left: 5%;
+  padding-bottom: 20px;
 }
-
-.grp_card {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.bulle_number {
+#section2 .bulle_number {
   background-color: #9356DC;
   color: white;
   border-radius: 50%;
@@ -117,15 +144,46 @@ footer i {
   top: 8px;
 }
 
-.card img {
+#section3 {
+  background-color: #f6f6f6;
+}
+#section3 h1 {
+  padding-top: 35px;
+  margin-left: 5%;
+  padding-bottom: 20px;
+}
+#section3 .grp_card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#section3 .grp_card .card {
+  position: relative;
+}
+#section3 .grp_card .card span {
+  position: absolute;
+  color: #008766;
+  background-color: #99E2D0;
+  padding: 7px;
+  border-radius: 2px;
+  top: 10px;
+  right: 10px;
+}
+#section3 .grp_card .card i {
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+  font-size: 1.6em;
+}
+#section3 .card img {
   width: 100%;
   object-fit: cover;
   height: 75%;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
-
-.card {
+#section3 .card {
   background-color: white;
   border-radius: 15px;
   width: 20%;
@@ -134,11 +192,15 @@ footer i {
   margin-bottom: 15px;
   height: 280px;
 }
-.card h2 {
+#section3 .card h2 {
   margin-left: 15px;
 }
-.card p {
+#section3 .card p {
   margin-left: 15px;
+}
+
+#section2 .bouton, #section1 {
+  text-align: center;
 }
 
 .flex {

@@ -16,9 +16,11 @@
     color: $colour-white;
     background: linear-gradient(170deg, $colour-secondary, $colour-primary);
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 15px;
-
+    display: block;
+    margin: auto;
+    width: 160px;
     
 }
 
