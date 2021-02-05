@@ -43,8 +43,15 @@ h1 {
   border-radius: 20px;
   padding: 15px;
 }
-.btn_explorer:hover {
-  background-color: red;
+
+.btn_fonction {
+  background-color: #f6f6f6;
+  border-radius: 20px;
+  padding: 15px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
 }
 
 .logo {
@@ -64,6 +71,9 @@ h1 {
   margin-right: 5px;
 }
 
+footer {
+  background-color: #353535;
+}
 footer p {
   color: white;
 }
@@ -77,12 +87,42 @@ footer i {
 
 #section1 {
   background-color: #f6f6f6;
-  height: 350px;
+  height: 150px;
+}
+
+#section2, #section1, #section3 h1 {
   text-align: center;
 }
 
-#section4 {
-  height: 100%;
+.grp_card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  height: 75%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  width: 20%;
+  min-width: 380px;
+  margin-right: 2%;
+  margin-bottom: 15px;
+  height: 280px;
+}
+.card h2 {
+  margin-left: 15px;
+}
+.card p {
+  margin-left: 15px;
 }
 
 .flex {
@@ -96,37 +136,6 @@ footer i {
 
 .flex_column {
   flex-direction: column;
-}
-
-.card img {
-  width: 100%;
-  object-fit: cover;
-  height: 75%;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-
-#section3 h1 {
-  text-align: center;
-}
-
-.card {
-  background-color: white;
-  border-radius: 15px;
-  width: 90%;
-  margin-left: 5%;
-  margin-bottom: 15px;
-  height: 280px;
-}
-.card h2 {
-  margin-left: 15px;
-}
-.card p {
-  margin-left: 15px;
-}
-
-footer {
-  background-color: #353535;
 }
 
 /*# sourceMappingURL=style.css.map */

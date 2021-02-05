@@ -19,8 +19,16 @@
     border-radius: 20px;
     padding: 15px;
 
-    &:hover{
-        background-color: red;
-    }
+    
+}
+
+@mixin btn_fonction {
+    background-color: $colour-lightgrey;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
     
 }

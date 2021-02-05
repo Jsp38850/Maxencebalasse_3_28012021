@@ -1,13 +1,48 @@
 #section1{
     background-color: $colour-lightgrey;
-    height: 350px;
+    height: 150px;
+}
+
+#section2, #section1, #section3 h1{
     text-align: center;
 }
 
-
-#section4{
-    height: 100%;
+.grp_card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+
+.card img{
+    width: 100%;
+    object-fit: cover;
+    height: 75%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card{
+    background-color: $colour-white;
+    border-radius: 15px;
+    width: 20%;
+    min-width: 380px;
+    margin-right: 2%;
+    margin-bottom: 15px;
+    height: 280px;
+    
+
+    & h2{
+        margin-left: 15px;
+    }
+
+    & p{
+        margin-left: 15px;
+    }
+
+}
+
 
 .flex{
     display: flex;
@@ -21,38 +56,3 @@
 .flex_column{
     flex-direction: column;
 }
-
-.card img{
-    width: 100%;
-    
-    object-fit: cover;
-    height: 75%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-#section3 h1{
-    text-align: center;
-}
-
-.card{
-    background-color: $colour-white;
-    border-radius: 15px;
-    width: 90%;
-    margin-left: 5%;
-    margin-bottom: 15px;
-    height: 280px;
-
-    & h2{
-        margin-left: 15px;
-    }
-
-    & p{
-        margin-left: 15px;
-    }
-
-}
-footer{
-    background-color: $colour-footer;
-}
-
