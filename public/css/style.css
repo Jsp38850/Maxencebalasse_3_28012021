@@ -87,6 +87,46 @@ h1 {
   margin-right: 10px;
 }
 
+.load {
+  width: 30vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.load__bar {
+  height: 100%;
+  width: 3vh;
+  animation: bounce 0.85s backwards infinite ease-in-out alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-20px);
+  }
+}
+.load__bar--1 {
+  animation-delay: 1000ms;
+  width: 300px;
+}
+
+.load__bar--3 {
+  animation-delay: 600ms;
+  width: 300px;
+}
+
+.load__bar--4 {
+  animation-delay: 200ms;
+  width: 300px;
+}
+
+.loading {
+  margin: auto;
+  padding-top: 13%;
+  width: 150px;
+}
+
 footer {
   background-color: #353535;
   height: 230px;
