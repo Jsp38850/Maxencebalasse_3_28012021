@@ -122,9 +122,9 @@ h1 {
 }
 
 .loading {
-  margin: auto;
-  padding-top: 13%;
-  width: 150px;
+  position: fixed;
+  top: 30%;
+  left: 40%;
 }
 
 footer {
