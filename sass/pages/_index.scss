@@ -1,11 +1,9 @@
 #section1{
-    background-color: $colour-darkgrey;
+    background-color: $colour-lightgrey;
+    height: 350px;
+    text-align: center;
 }
 
-#section2, #section4{
-    background-color: $colour-lightgrey;
-    width: 100%;
-}
 
 #section4{
     height: 100%;
@@ -57,3 +55,4 @@
 footer{
     background-color: $colour-footer;
 }
+

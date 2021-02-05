@@ -11,3 +11,16 @@
         margin: 0 auto;
     }
 }
+
+@mixin btn_explorer {
+    color: $colour-white;
+    background: linear-gradient(170deg, $colour-secondary, $colour-primary);
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 15px;
+
+    &:hover{
+        background-color: red;
+    }
+    
+}

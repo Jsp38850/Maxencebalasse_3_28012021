@@ -1,11 +1,14 @@
-footer p, h2{
-    color: $colour-white;
-}
+footer{
+    p{
+        color: $colour-white;
+    }
 
-footer h2{
-    font-family: 'Shrikhand';
-}
+   h2{
+        color: $colour-white;
+        font-family: 'Shrikhand';
+   }
 
-footer i{
-    color: white;
+   i{
+        color: $colour-white;
+   }
 }

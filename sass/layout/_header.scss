@@ -1,5 +1,18 @@
 .logo{
-    margin-left: $margin-left;
+    margin: $margin-auto;
     margin-top: 20px;
+    display: block;
 }
 
+.localisation{
+    background-color: $colour-darkgrey;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    i{
+        margin-right: 5px;
+        
+    }
+}

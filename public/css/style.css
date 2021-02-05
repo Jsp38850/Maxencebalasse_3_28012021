@@ -6,6 +6,10 @@
   box-sizing: inherit;
 }
 
+a {
+  text-decoration: none;
+}
+
 @font-face {
   font-family: "Shrikhand";
   src: url("../../public/font/Shrikhand.otf");
@@ -32,30 +36,49 @@ h1 {
   margin: 0 auto;
 }
 
-.logo {
-  margin-left: 24%;
-  margin-top: 20px;
+.btn_explorer {
+  color: white;
+  background: linear-gradient(170deg, #FF79DA, #9356DC);
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 15px;
+}
+.btn_explorer:hover {
+  background-color: red;
 }
 
-footer p, h2 {
+.logo {
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+}
+
+.localisation {
+  background-color: #eaeaea;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.localisation i {
+  margin-right: 5px;
+}
+
+footer p {
   color: white;
 }
-
 footer h2 {
+  color: white;
   font-family: "Shrikhand";
 }
-
 footer i {
   color: white;
 }
 
 #section1 {
-  background-color: #eaeaea;
-}
-
-#section2, #section4 {
   background-color: #f6f6f6;
-  width: 100%;
+  height: 350px;
+  text-align: center;
 }
 
 #section4 {
