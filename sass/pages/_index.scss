@@ -14,6 +14,17 @@
     justify-content: center;
 }
 
+.bulle_number{
+    background-color: $colour-primary;
+    color: $colour-white;
+    border-radius: 50%;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    left: -8px;
+    top: 8px;
+}
 
 .card img{
     width: 100%;
