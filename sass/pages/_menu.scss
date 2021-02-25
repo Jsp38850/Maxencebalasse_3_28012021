@@ -5,3 +5,21 @@
        object-fit: cover;
     }
 }
+
+.title_menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.menu_background{
+    background-color: $colour-white;
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+#section2{
+    background-color: $colour-lightgrey;
+}
