@@ -10,6 +10,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-top: 25px;
+    justify-content: space-around;
 }
 
 .menu_background{
@@ -22,4 +24,13 @@
 
 #section2{
     background-color: $colour-lightgrey;
+}
+
+.margin_menu{
+    @include margin_menu
+}
+
+.underline{
+    text-decoration: underline;
+    text-decoration-color: green;
 }

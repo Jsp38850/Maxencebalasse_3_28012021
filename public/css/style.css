@@ -207,8 +207,6 @@ footer h2 {
 }
 
 #section2 h1 {
-  padding-top: 35px;
-  margin-left: 5%;
   padding-bottom: 20px;
 }
 #section2 .bulle_number {
@@ -305,6 +303,8 @@ footer h2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-top: 25px;
+  justify-content: space-around;
 }
 
 .menu_background {
@@ -317,6 +317,16 @@ footer h2 {
 
 #section2 {
   background-color: #f6f6f6;
+}
+
+.margin_menu {
+  margin-left: 5%;
+  margin-top: 10px;
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: green;
 }
 
 /*# sourceMappingURL=style.css.map */
