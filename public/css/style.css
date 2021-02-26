@@ -46,6 +46,7 @@ h1 {
   display: block;
   margin: auto;
   width: 160px;
+  min-width: 160px;
 }
 
 .btn_fonction {
@@ -127,7 +128,7 @@ footer h2 {
   width: 30vh;
   display: flex;
   justify-content: space-evenly;
-  animation: fadeout 1s 3s 1 alternate forwards;
+  animation: fadeout 1s 2s 1 alternate forwards;
 }
 .load__bar, .loading h1__bar {
   height: 100%;
@@ -158,7 +159,7 @@ footer h2 {
 }
 
 .container {
-  animation: fadein 1s 4s 1 alternate backwards;
+  animation: fadein 1s 3s 1 alternate backwards;
 }
 
 @keyframes bounce {

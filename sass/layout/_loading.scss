@@ -5,7 +5,7 @@
     width: $size*10;
     display: flex;
     justify-content: space-evenly;
-    animation: fadeout 1s 3s 1 alternate forwards ;
+    animation: fadeout 1s 2s 1 alternate forwards ;
 
     &__bar {
         height: 100%;
@@ -38,7 +38,7 @@
 }
 
 .container{
-    animation: fadein 1s 4s 1 alternate backwards ;
+    animation: fadein 1s 3s 1 alternate backwards ;
 }
 
 @keyframes bounce {
