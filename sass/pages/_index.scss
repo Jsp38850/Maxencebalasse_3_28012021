@@ -90,8 +90,8 @@
         background-color: $colour-white;
         border-radius: 15px;
         width: 20%;
-        min-width: 380px;
-        margin-right: 2%;
+        min-width: 330px;
+        box-shadow: 10px black;
         margin-bottom: 15px;
         height: 280px;
         
@@ -128,4 +128,16 @@
 
 .flex_column{
     flex-direction: column;
+}
+
+.title_section{
+    margin-left: 5%;
+}
+
+.background_white{
+    background-color: $colour-white;
+}
+
+.margin_top{
+    margin-top: 15px;
 }
