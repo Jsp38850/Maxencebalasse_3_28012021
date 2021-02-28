@@ -49,6 +49,20 @@ h1 {
   min-width: 160px;
 }
 
+.btn_commande {
+  color: white;
+  background: linear-gradient(170deg, #FF79DA, #9356DC);
+  cursor: pointer;
+  border-radius: 30px;
+  padding: 15px;
+  display: block;
+  margin: auto;
+  margin-top: 35px;
+  width: 160px;
+  min-width: 160px;
+  text-align: center;
+}
+
 .btn_fonction {
   background-color: #f6f6f6;
   border-radius: 20px;
@@ -327,9 +341,22 @@ footer h2 {
 .menu_background {
   background-color: white;
   width: 96%;
-  margin-left: 2%;
-  margin-top: 10px;
+  height: 70px;
+  margin-top: 15px;
   border-radius: 20px;
+  position: relative;
+}
+.menu_background h2 {
+  padding: 10px 10px 5px 10px;
+}
+.menu_background p {
+  padding: 0px 10px;
+}
+.menu_background .price {
+  position: absolute;
+  right: 10px;
+  bottom: 8px;
+  text-decoration: solid;
 }
 
 #section2_menu {
@@ -341,12 +368,14 @@ footer h2 {
 
 .margin_menu {
   margin-left: 5%;
-  margin-top: 10px;
+  margin-top: 40px;
 }
 
 .underline {
   text-decoration: underline;
-  text-decoration-color: green;
+  text-decoration-color: #99E2D0;
+  text-underline-position: under;
+  text-decoration-thickness: 3px;
 }
 
 /*# sourceMappingURL=style.css.map */

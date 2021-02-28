@@ -23,10 +23,28 @@
 .menu_background{
     background-color: $colour-white;
     width: 96%;
-    margin-left: 2%;
-    margin-top: 10px;
+    height: 70px;
+    margin-top: 15px;
     border-radius: 20px;
+    position: relative;
+
+    h2{
+        padding: 10px 10px 5px 10px;
+    }
+
+    p{
+        padding: 0px 10px;
+    }
+
+    .price{
+        position: absolute;
+        right: 10px;
+        bottom: 8px;
+        text-decoration: solid;
+    }
 }
+
+
 
 #section2_menu{
     background-color: $colour-lightgrey;
@@ -41,5 +59,7 @@
 
 .underline{
     text-decoration: underline;
-    text-decoration-color: green;
+    text-decoration-color: $colour-tertiaire;
+    text-underline-position: under;
+    text-decoration-thickness: 3px;
 }
