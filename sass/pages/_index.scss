@@ -3,7 +3,7 @@
     height: 100%;
 
     h1{
-        padding-top: 30px;
+        padding-top: 45px;
         padding-left: 55px;
         padding-right: 55px;
     }
@@ -15,7 +15,7 @@
     }
 
     .btn_section1{
-        padding-bottom: 25px;
+        padding-bottom: 60px;
         padding-top: 25px;
     }
 }
@@ -29,12 +29,17 @@
         background-color: $colour-primary;
         color: $colour-white;
         border-radius: 50%;
-        padding: 6px;
+        padding: 5px;
         padding-left: 10px;
         padding-right: 10px;
         position: absolute;
-        left: -8px;
-        top: 8px;
+        left: -10px;
+        top: 15px;
+    }
+
+    .text_fonction{
+        display: block;
+         margin-top: 6px;
     }
 }
 
