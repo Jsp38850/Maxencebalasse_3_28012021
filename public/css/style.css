@@ -288,7 +288,6 @@ footer h2 {
   border-radius: 15px;
   width: 20%;
   min-width: 330px;
-  margin-bottom: 15px;
   height: 230px;
 }
 #section3 .card h2 {
@@ -296,6 +295,14 @@ footer h2 {
 }
 #section3 .card p {
   margin-left: 15px;
+}
+
+.card_menu_one, .card_menu_two, .card_menu_three {
+  margin-bottom: 15px;
+}
+
+.card_menu_four {
+  margin-bottom: 65px;
 }
 
 #section2 .bouton, #section1 {
