@@ -290,11 +290,9 @@ footer h2 {
   min-width: 330px;
   height: 230px;
 }
-#section3 .card h2 {
+#section3 .card h2, #section3 .card p {
   margin-left: 15px;
-}
-#section3 .card p {
-  margin-left: 15px;
+  margin-top: 5px;
 }
 
 .card_menu_one, .card_menu_two, .card_menu_three {
