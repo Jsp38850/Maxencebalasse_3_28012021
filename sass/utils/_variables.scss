@@ -19,3 +19,7 @@ $light-main-color: lighten($colour-lightgrey,1%);
 
 /*Couleur dégradé*/
 $background-gradient: linear-gradient(170deg,$colour-secondary,$colour-primary);
+
+
+/*Placement*/
+$z-index:200;

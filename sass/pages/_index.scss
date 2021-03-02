@@ -115,16 +115,6 @@
 
 }
 
-.description img{
-    width: 30px;
-    right: 20px;
-    position: absolute;
-    bottom: 20px;
-    height: 30px;
-
-   
-}
-
 
 .card_menu_one, .card_menu_two, .card_menu_three {
     margin-bottom: 15px;
@@ -168,4 +158,37 @@
     margin-top: 35px;
 }
 
+  input[type="checkbox"] {
+      appearance: none;
+  }
 
+  input:checked {
+    animation: fadeout 1s 1 alternate forwards ;
+}
+
+.colored {
+    background:$background-gradient; 
+    mask: url(https://img.icons8.com/material-rounded/64/000000/like--v1.png) no-repeat center / 35px;
+    -webkit-mask: url(https://img.icons8.com/material-rounded/64/000000/like--v1.png) no-repeat center / 35px;
+  }
+
+  .black {
+    background-color:black;
+    mask: url(https://img.icons8.com/material-rounded/64/000000/like--v1.png) no-repeat center / 35px;
+    -webkit-mask: url(https://img.icons8.com/material-rounded/64/000000/like--v1.png) no-repeat center / 35px
+  }
+.icon {
+    width: 35px;
+    right: 20px;
+    position: absolute;
+    bottom: 20px;
+    height: 30px;
+  }
+
+.z_index{
+    z-index: $z-index;
+}
+
+
+
+  
