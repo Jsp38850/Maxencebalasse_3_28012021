@@ -415,6 +415,9 @@ footer h2 {
 }
 .menu_background h2 {
   padding: 10px 10px 5px 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .menu_background p {
   padding: 0px 10px;
