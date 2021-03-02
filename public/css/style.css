@@ -207,6 +207,48 @@ footer h2 {
     opacity: 1;
   }
 }
+.entre {
+  animation: fadein 1s 0.5s 1 alternate backwards;
+}
+.entre .entre_one {
+  animation: fadein 1s 1s 1 alternate backwards;
+}
+.entre .entre_two {
+  animation: fadein 1s 1.5s 1 alternate backwards;
+}
+.entre .entre_three {
+  animation: fadein 1s 2s 1 alternate backwards;
+}
+.entre .entre_four {
+  animation: fadein 1s 2.3s 1 alternate backwards;
+}
+
+.plats {
+  animation: fadein 1s 2.5s 1 alternate backwards;
+}
+.plats .plat_one {
+  animation: fadein 1s 3s 1 alternate backwards;
+}
+.plats .plat_two {
+  animation: fadein 1s 3.5s 1 alternate backwards;
+}
+.plats .plat_three {
+  animation: fadein 1s 4s 1 alternate backwards;
+}
+
+.desserts {
+  animation: fadein 1s 4.5s 1 alternate backwards;
+}
+.desserts .desserts_one {
+  animation: fadein 1s 5s 1 alternate backwards;
+}
+.desserts .desserts_two {
+  animation: fadein 1s 5.5s 1 alternate backwards;
+}
+.desserts .desserts_three {
+  animation: fadein 1s 6s 1 alternate backwards;
+}
+
 #section1 {
   background-color: #f6f6f6;
   height: 100%;
