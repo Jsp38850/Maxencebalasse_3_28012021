@@ -4,7 +4,6 @@
 /*Taille*/
 /*Effet Éclaircissement*/
 /*Couleur dégradé*/
-/*Placement*/
 *,
 *::after,
 *::before {
@@ -391,8 +390,8 @@ input:checked {
 
 .black {
   background-color: black;
-  mask: url(https://img.icons8.com/material-rounded/64/000000/like--v1.png) no-repeat center/35px;
-  -webkit-mask: url(https://img.icons8.com/material-rounded/64/000000/like--v1.png) no-repeat center/35px;
+  mask: url(https://img.icons8.com/small/64/000000/like.png) no-repeat center/35px;
+  -webkit-mask: url(https://img.icons8.com/small/64/000000/like.png) no-repeat center/35px;
 }
 
 .icon {
@@ -401,10 +400,6 @@ input:checked {
   position: absolute;
   bottom: 20px;
   height: 30px;
-}
-
-.z_index {
-  z-index: 200;
 }
 
 #section1 img {

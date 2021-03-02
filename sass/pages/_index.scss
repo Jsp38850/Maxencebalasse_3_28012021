@@ -172,10 +172,10 @@
     -webkit-mask: url(https://img.icons8.com/material-rounded/64/000000/like--v1.png) no-repeat center / 35px;
   }
 
-  .black {
+.black {
     background-color:black;
-    mask: url(https://img.icons8.com/material-rounded/64/000000/like--v1.png) no-repeat center / 35px;
-    -webkit-mask: url(https://img.icons8.com/material-rounded/64/000000/like--v1.png) no-repeat center / 35px
+    mask: url(https://img.icons8.com/small/64/000000/like.png) no-repeat center / 35px;
+    -webkit-mask: url(https://img.icons8.com/small/64/000000/like.png) no-repeat center / 35px
   }
 .icon {
     width: 35px;
@@ -185,9 +185,6 @@
     height: 30px;
   }
 
-.z_index{
-    z-index: $z-index;
-}
 
 
 
