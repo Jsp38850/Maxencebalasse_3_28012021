@@ -73,14 +73,6 @@
                 
             }
 
-            i{
-                position: absolute;
-                right: 25px;
-                bottom: 25px;
-                font-size: 1.6em;
-
-              
-            }
         }
      
     }
@@ -158,25 +150,6 @@
     margin-top: 35px;
 }
 
-  input[type="checkbox"] {
-      appearance: none;
-  }
-
-  input:checked {
-    animation: fadeout 1s 1 alternate forwards ;
-}
-
-.colored {
-    background:$background-gradient; 
-    mask: url(https://img.icons8.com/material-rounded/64/000000/like--v1.png) no-repeat center / 35px;
-    -webkit-mask: url(https://img.icons8.com/material-rounded/64/000000/like--v1.png) no-repeat center / 35px;
-  }
-
-.black {
-    background-color:black;
-    mask: url(https://img.icons8.com/small/64/000000/like.png) no-repeat center / 35px;
-    -webkit-mask: url(https://img.icons8.com/small/64/000000/like.png) no-repeat center / 35px
-  }
 .icon {
     width: 35px;
     right: 20px;
@@ -184,6 +157,21 @@
     bottom: 20px;
     height: 30px;
   }
+  .plein{
+    background-image: linear-gradient(170deg, #FF79DA, #9356DC);
+    background-clip: text;
+    font-size: 1.6em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   }
+   
+   .black{
+    background-color: white;
+    font-size: 1.6em;
+    -webkit-text-stroke: 2px;
+    -webkit-text-fill-color: transparent;
+     
+   }
 
 
 

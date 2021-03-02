@@ -12,10 +12,14 @@
   box-sizing: inherit;
 }
 
-/*Style de base des liens*/
+/*Style de base des lien*/
 a {
   text-decoration: none;
   color: black;
+}
+
+input[type=checkbox] {
+  appearance: none;
 }
 
 /*Ajout de la police Shrikhand*/
@@ -246,6 +250,10 @@ footer h2 {
   animation: fadein 1s 6s 1 alternate backwards;
 }
 
+input:checked + label {
+  animation: fadeout 1s 1 alternate forwards;
+}
+
 #section1 {
   background-color: #f6f6f6;
   height: 100%;
@@ -311,12 +319,6 @@ footer h2 {
   top: 10px;
   right: 10px;
 }
-#section3 .grp_card .card i {
-  position: absolute;
-  right: 25px;
-  bottom: 25px;
-  font-size: 1.6em;
-}
 #section3 .imgcard {
   width: 100%;
   object-fit: cover;
@@ -374,32 +376,27 @@ footer h2 {
   margin-top: 35px;
 }
 
-input[type=checkbox] {
-  appearance: none;
-}
-
-input:checked {
-  animation: fadeout 1s 1 alternate forwards;
-}
-
-.colored {
-  background: linear-gradient(170deg, #FF79DA, #9356DC);
-  mask: url(https://img.icons8.com/material-rounded/64/000000/like--v1.png) no-repeat center/35px;
-  -webkit-mask: url(https://img.icons8.com/material-rounded/64/000000/like--v1.png) no-repeat center/35px;
-}
-
-.black {
-  background-color: black;
-  mask: url(https://img.icons8.com/small/64/000000/like.png) no-repeat center/35px;
-  -webkit-mask: url(https://img.icons8.com/small/64/000000/like.png) no-repeat center/35px;
-}
-
 .icon {
   width: 35px;
   right: 20px;
   position: absolute;
   bottom: 20px;
   height: 30px;
+}
+
+.plein {
+  background-image: linear-gradient(170deg, #FF79DA, #9356DC);
+  background-clip: text;
+  font-size: 1.6em;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.black {
+  background-color: white;
+  font-size: 1.6em;
+  -webkit-text-stroke: 2px;
+  -webkit-text-fill-color: transparent;
 }
 
 #section1 img {
