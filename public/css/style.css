@@ -79,6 +79,9 @@ h1 {
 .btn_fonction i {
   margin-right: 10px;
 }
+.btn_fonction:hover {
+  background-color: #f9f9f9;
+}
 
 .grp_btn {
   display: flex;
@@ -254,7 +257,7 @@ footer h2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 #section3 .grp_card .card {
   position: relative;
@@ -275,7 +278,7 @@ footer h2 {
   bottom: 25px;
   font-size: 1.6em;
 }
-#section3 .card img {
+#section3 .imgcard {
   width: 100%;
   object-fit: cover;
   object-position: 50% 61%;
@@ -293,6 +296,14 @@ footer h2 {
 #section3 .card h2, #section3 .card p {
   margin-left: 15px;
   margin-top: 5px;
+}
+
+.description img {
+  width: 30px;
+  right: 20px;
+  position: absolute;
+  bottom: 20px;
+  height: 30px;
 }
 
 .card_menu_one, .card_menu_two, .card_menu_three {

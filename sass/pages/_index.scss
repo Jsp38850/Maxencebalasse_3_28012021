@@ -56,7 +56,7 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-evenly;
      
 
         .card{
@@ -65,7 +65,7 @@
             span{
                 position: absolute;
                 color: #008766;
-                background-color: $colour-tertiaire;
+                background-color: $colour-tertiary;
                 padding: 7px;
                 border-radius: 2px;
                 top: 10px;
@@ -86,7 +86,7 @@
     }
     
 
-    .card img{
+    .imgcard{
         width: 100%;
         object-fit: cover;
         object-position: 50% 61%;
@@ -114,6 +114,18 @@
     }
 
 }
+
+.description img{
+    width: 30px;
+    right: 20px;
+    position: absolute;
+    bottom: 20px;
+    height: 30px;
+
+   
+}
+
+
 .card_menu_one, .card_menu_two, .card_menu_three {
     margin-bottom: 15px;
 
@@ -155,3 +167,5 @@
 .margin_top{
     margin-top: 35px;
 }
+
+

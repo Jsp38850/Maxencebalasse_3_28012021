@@ -14,7 +14,7 @@
 
 @mixin btn_explorer {
     color: $colour-white;
-    background: linear-gradient(170deg, $colour-secondary, $colour-primary);
+    background: $background-gradient;
     cursor: pointer;
     border-radius: 30px;
     padding: 15px;
@@ -23,6 +23,8 @@
     width: 160px;
     min-width: 160px;
     box-shadow: 0px 4px 15px 0px #b9b7b7;
+
+  
     
 }
 
@@ -52,11 +54,17 @@
     height: 30px;
     position: relative;
     box-shadow: 0px 4px 15px 0px #ded9d9;
+  
 
     i{
         margin-right: 10px;
     }
     
+    &:hover{
+        background-color: $light-main-color;
+
+    }
+   
 }
 
 @mixin heart {
@@ -70,3 +78,4 @@
     margin-top: 40px;
     
 }
+
