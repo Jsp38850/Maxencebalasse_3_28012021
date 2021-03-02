@@ -1,53 +1,53 @@
-
+/*Animation d'apparition Titre "Entrée"*/
 .entre{ 
     animation: fadein 1s 0.5s 1 alternate backwards ;
-
+/*Animation d'apparition entrée 1*/
     .entre_one{
         animation: fadein 1s 1s 1 alternate backwards ;
     }
-    
+/*Animation d'apparition entrée 2*/  
     .entre_two{
         animation: fadein 1s 1.5s 1 alternate backwards ;
     }
-    
+/*Animation d'apparition entrée 3*/  
     .entre_three{
         animation: fadein 1s 2s 1 alternate backwards ;
     }
-
+/*Animation d'apparition entrée 4*/
     .entre_four{
         animation: fadein 1s 2.3s 1 alternate backwards ;
     }
 }
 
-
-
+/*Animation d'apparition Titre "Plats"*/
 .plats{
-animation: fadein 1s 2.5s 1 alternate backwards ;
-
-.plat_one{
-    animation: fadein 1s 3s 1 alternate backwards ;
+    animation: fadein 1s 2.5s 1 alternate backwards ;
+/*Animation d'apparition plat 1*/
+    .plat_one{
+        animation: fadein 1s 3s 1 alternate backwards ;
+    }
+/*Animation d'apparition plat 2*/
+    .plat_two{
+        animation: fadein 1s 3.5s 1 alternate backwards ;
+    }
+/*Animation d'apparition plat 3*/
+    .plat_three{
+        animation: fadein 1s 4s 1 alternate backwards ;
+    }
 }
 
-.plat_two{
-    animation: fadein 1s 3.5s 1 alternate backwards ;
-}
-
-.plat_three{
-    animation: fadein 1s 4s 1 alternate backwards ;
-}
-}
-
+/*Animation d'apparition Titre "Desserts"*/
 .desserts{
 animation: fadein 1s 4.5s 1 alternate backwards ;
-
+/*Animation d'apparition dessert 1*/
 .desserts_one{
     animation: fadein 1s 5s 1 alternate backwards ;
 }
-
+/*Animation d'apparition dessert 2*/
 .desserts_two{
     animation: fadein 1s 5.5s 1 alternate backwards ;
 }
-
+/*Animation d'apparition dessert 3*/
 .desserts_three{
     animation: fadein 1s 6s 1 alternate backwards ;
 }

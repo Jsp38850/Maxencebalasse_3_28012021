@@ -67,3 +67,13 @@
     text-underline-position: under;
     text-decoration-thickness: 3px;
 }
+/**/
+.btn_fonction{
+    @include btn_fonction
+}
+.grp_btn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}

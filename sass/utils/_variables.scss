@@ -1,3 +1,4 @@
+/*Couleur*/
 $colour-primary: #9356DC;
 $colour-secondary: #FF79DA;
 $colour-tertiary: #99E2D0;
@@ -6,15 +7,15 @@ $colour-lightgrey: #f6f6f6;
 $colour-footer: #353535;
 $colour-white: white;
 
+/*Marge*/
 $margin-auto: auto;
 
-
-$cd-bars: #15DEA5;
+/*Taille*/
 $size: 3vh;
-$anim-dur: 1000ms;
-$anim-delay: $anim-dur / 5;
 
+
+/*Effet Éclaircissement*/
 $light-main-color: lighten($colour-lightgrey,1%);
 
-
+/*Couleur dégradé*/
 $background-gradient: linear-gradient(170deg,$colour-secondary,$colour-primary);

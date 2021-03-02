@@ -2,25 +2,17 @@
     @include btn
 }
 
+/*Bouton "Explorer nos restaurants (Page: index.html)*/
 .btn_explorer{
     @include btn_explorer
 }
 
+/*Bouton "Commande" (Page: Menu1.html, Menu2.html Menu3.html & Menu4.html) */
 .btn_commande{
     @include btn_commande
 }
 
-.btn_fonction{
-    @include btn_fonction
-}
-
-.grp_btn{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
+/*Flèche Retour à la page index.html */
 .btn_return{
     position: absolute;
     top: 20px;

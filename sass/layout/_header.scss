@@ -1,3 +1,4 @@
+/*Style Logo haut de page*/
 .logo{
     margin: $margin-auto;
     margin-top: 15px;
@@ -5,7 +6,7 @@
     display: block;
     width: 150px;
 }
-
+/*Container "Localisation" en dessous du logo */
 .localisation{
     background-color: $colour-darkgrey;
     width: 100%;
@@ -14,9 +15,7 @@
     padding-bottom: 15px;
     box-shadow: inset 6px 12px 10px -10px #ababab;
 
-
     i{
         margin-right: 10px;
-        
     }
 }
