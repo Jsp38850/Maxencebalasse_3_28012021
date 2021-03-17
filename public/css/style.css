@@ -27,12 +27,13 @@ input[type=checkbox] {
   font-family: "Shrikhand";
   src: url("../../public/font/Shrikhand.otf");
 }
-p {
+p, span {
   font-family: "Roboto", sans-serif;
 }
 
 h1 {
   font-family: "Shrikhand", sans-serif;
+  font-weight: normal;
 }
 
 .btn {
@@ -161,7 +162,8 @@ footer h2 {
 }
 
 .loading {
-  position: absolute;
+  position: fixed;
+  z-index: 200;
   transform: translateX(-50%) translateY(-50%);
   top: 50%;
   left: 50%;
@@ -254,6 +256,19 @@ input:checked + label {
   animation: fadeout 1s 1 alternate forwards;
 }
 
+.check {
+  animation: check 1s 4s 1 alternate backwards;
+}
+
+@keyframes check {
+  from {
+    transform: translateX(0);
+    width: 0;
+  }
+  to {
+    transform: translateX(-20px);
+  }
+}
 #section1 {
   background-color: #f6f6f6;
   height: 100%;
@@ -443,6 +458,22 @@ input:checked + label {
   text-decoration: solid;
 }
 
+.check {
+  background-color: green;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  height: 100%;
+  width: 85px;
+  border-radius: 0 20px 20px 0;
+}
+.check i {
+  margin-top: 25px;
+  margin-left: 30px;
+  font-size: 25px;
+}
+
 #section2_menu {
   background-color: #f6f6f6;
   margin-top: -50px;
@@ -455,11 +486,12 @@ input:checked + label {
   margin-top: 40px;
 }
 
-.underline {
-  text-decoration: underline;
-  text-decoration-color: #99E2D0;
-  text-underline-position: under;
-  text-decoration-thickness: 3px;
+.underline::after {
+  position: absolute;
+  width: 50px;
+  height: 5px;
+  background-color: #99E2D0;
+  content: 0;
 }
 
 /**/

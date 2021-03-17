@@ -48,6 +48,24 @@
     }
 }
 
+.check {
+    background-color: green;
+   position:absolute;
+   right: 0;
+   bottom: 0;
+   margin: 0;
+   height: 100%;
+   width:85px;
+   border-radius: 0 20px  20px 0;
+   
+   i{
+    margin-top: 25px;
+    margin-left: 30px;
+    font-size:25px;
+  }
+ }
+ 
+   
 
 
 #section2_menu{
@@ -61,12 +79,13 @@
     @include margin_menu
 }
 
-.underline{
-    text-decoration: underline;
-    text-decoration-color: $colour-tertiary;
-    text-underline-position: under;
-    text-decoration-thickness: 3px;
-}
+.underline::after{
+    position:absolute;
+    width: 50px;
+    height: 5px;
+    background-color: $colour-tertiary; 
+    content:0 ;
+  }
 /**/
 .btn_fonction{
     @include btn_fonction
