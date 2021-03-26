@@ -304,19 +304,50 @@ input:checked + label {
   -webkit-text-fill-color: transparent;
 }
 
-.check:checked {
-  animation: check 1s 2s 1 alternate backwards;
+.menu_background:hover .caption {
+  animation: check 1s 0.5s 1 alternate forwards;
+}
+.menu_background:hover .caption i {
+  animation: icon 1s 0.5s 1 alternate forwards;
 }
 
 @keyframes check {
   from {
-    transform: translateX(0);
     width: 0;
   }
   to {
-    transform: translateX(-20px);
+    width: 90px;
   }
 }
+@keyframes icon {
+  from {
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(360deg);
+  }
+}
+/*Caption check*/
+.caption {
+  display: flex;
+  width: 0;
+  height: 70px;
+  background-color: green;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 20px 20px 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.caption i {
+  font-size: 37px;
+  color: white;
+  opacity: 0;
+}
+
 #section1 {
   background-color: #f6f6f6;
   height: 100%;
