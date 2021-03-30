@@ -1,18 +1,6 @@
-/*Ajout de la police Shrikhand*/
-@font-face{
-    font-family: "Shrikhand";
-    src: url("../../public/font/Shrikhand.otf");
+
+
+#section1 h1, p{
+    font-family: 'Roboto';
+    font-weight: 500;
 }
-
-
-p, span{
-    font-family: 'Roboto', sans-serif;
-}
-
-
-
-h1{
-    font-family: "Shrikhand", sans-serif;
-  
-}
-
