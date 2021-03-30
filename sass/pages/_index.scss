@@ -10,7 +10,7 @@
 
     p{
         padding-top: 10px;
-        padding-left: 50px;
+        padding-left: 48px;
         padding-right: 50px;
     }
 
@@ -21,7 +21,7 @@
 }
 
 #section2{
-    h1{
+    h2{
         padding-bottom: 20px;
     }
     
@@ -41,13 +41,17 @@
         display: block;
          margin-top: 6px;
     }
+
+    .three_fonction{
+        margin-bottom: 50px;
+    }
 }
 
 #section3{
     background-color: $colour-lightgrey;
 
-    h1{
-        padding-top: 35px;
+    h2{
+        padding-top: 50px;
         margin-left: 5%;
         padding-bottom: 20px;
     }
@@ -96,10 +100,12 @@
         height: 230px;
         
     
-        & h2,  & p{
+        h3, p{
             margin-left: 15px;
             margin-top: 5px;
         }
+
+        
     
        
     

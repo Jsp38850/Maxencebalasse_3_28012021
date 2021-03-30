@@ -24,20 +24,24 @@
     
 
     h2{
-        padding: 10px 10px 5px 10px;
+        padding: 10px 0 5px 20px;
         text-overflow: ellipsis;
         white-space: nowrap;
   overflow: hidden;
+  font-size: 1.3em;
     }
 
     p{
-        padding: 0px 10px;
+        padding: 0px 20px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
     }
 
     .price{
         position: absolute;
         right: 10px;
-        bottom: 8px;
+        bottom: 10px;
         text-decoration: solid;
     }
 }
@@ -90,6 +94,10 @@
     display: block;
     top: 23px;
   }
+
+  .underline {
+    margin-bottom: 30px;
+}
 /**/
 .btn_fonction{
     @include btn_fonction

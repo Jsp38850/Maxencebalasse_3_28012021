@@ -22,9 +22,62 @@ input[type=checkbox] {
   appearance: none;
 }
 
-#section1 h1, p {
+#section1 h1 {
   font-family: "Roboto";
-  font-weight: 500;
+  font-weight: 700;
+}
+
+#section1 p {
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.localisation span {
+  font-family: "Roboto";
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Roboto";
+  font-weight: 700;
+}
+
+.text_fonction {
+  font-family: "Roboto";
+  font-weight: 700;
+}
+.text_fonction i {
+  color: grey;
+}
+
+.bulle_number {
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.card h3 {
+  font-family: "Roboto";
+  font-weight: 700;
+}
+
+.card p {
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+footer p {
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.title_menu h1 {
+  font-family: "Shrikhand", cursive;
+  font-weight: initial;
+}
+
+.price {
+  font-family: "Roboto";
+  font-weight: 700;
 }
 
 .btn {
@@ -46,11 +99,14 @@ input[type=checkbox] {
   color: white;
   background: linear-gradient(170deg, #FF79DA, #9356DC);
   cursor: pointer;
+  font-family: "Roboto";
+  font-weight: 400;
   border-radius: 30px;
   padding: 15px;
+  z-index: 200;
   display: block;
   margin: auto;
-  width: 160px;
+  width: 180px;
   min-width: 160px;
   box-shadow: 0px 4px 15px 0px #b9b7b7;
 }
@@ -72,6 +128,12 @@ input[type=checkbox] {
   width: 160px;
   min-width: 160px;
   text-align: center;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+.btn_commande:hover {
+  box-shadow: 0px 4px 15px 7px #868484;
+  opacity: 0.8;
 }
 
 /*Flèche Retour à la page index.html */
@@ -117,7 +179,7 @@ footer p i {
   color: white;
   margin-right: 10px;
 }
-footer h2 {
+footer h3 {
   color: white;
   font-family: "Shrikhand";
   padding-top: 30px;
@@ -129,7 +191,7 @@ footer .contact {
   color: white;
 }
 
-.load, .loading h1 {
+.load, .loading span {
   text-align: center;
   font-family: "Shrikhand";
   margin-top: 20px;
@@ -138,7 +200,7 @@ footer .contact {
   justify-content: space-evenly;
   animation: fadeout 1s 2s 1 alternate forwards;
 }
-.load__bar, .loading h1__bar {
+.load__bar, .loading span__bar {
   height: 100%;
   width: 3vh;
   animation: bounce 0.85s backwards infinite ease-in-out alternate;
@@ -164,6 +226,10 @@ footer .contact {
   transform: translateX(-50%) translateY(-50%);
   top: 50%;
   left: 50%;
+}
+
+.loading span {
+  font-size: 1.8em;
 }
 
 .container {
@@ -264,6 +330,7 @@ input:checked + label {
   position: absolute;
   bottom: 20px;
   height: 30px;
+  cursor: pointer;
 }
 
 .plein {
@@ -308,7 +375,7 @@ input:checked + label {
     width: 0;
   }
   to {
-    width: 90px;
+    width: 70px;
   }
 }
 @keyframes icon {
@@ -326,7 +393,7 @@ input:checked + label {
   display: flex;
   width: 0;
   height: 70px;
-  background-color: green;
+  background-color: #99E2D0;
   align-items: center;
   justify-content: center;
   border-radius: 0 20px 20px 0;
@@ -335,7 +402,7 @@ input:checked + label {
   right: 0;
 }
 .caption i {
-  font-size: 37px;
+  font-size: 25px;
   color: white;
   opacity: 0;
 }
@@ -351,7 +418,7 @@ input:checked + label {
 }
 #section1 p {
   padding-top: 10px;
-  padding-left: 50px;
+  padding-left: 48px;
   padding-right: 50px;
 }
 #section1 .btn_section1 {
@@ -359,7 +426,7 @@ input:checked + label {
   padding-top: 25px;
 }
 
-#section2 h1 {
+#section2 h2 {
   padding-bottom: 20px;
 }
 #section2 .bulle_number {
@@ -377,12 +444,15 @@ input:checked + label {
   display: block;
   margin-top: 6px;
 }
+#section2 .three_fonction {
+  margin-bottom: 50px;
+}
 
 #section3 {
   background-color: #f6f6f6;
 }
-#section3 h1 {
-  padding-top: 35px;
+#section3 h2 {
+  padding-top: 50px;
   margin-left: 5%;
   padding-bottom: 20px;
 }
@@ -420,7 +490,7 @@ input:checked + label {
   min-width: 330px;
   height: 230px;
 }
-#section3 .card h2, #section3 .card p {
+#section3 .card h3, #section3 .card p {
   margin-left: 15px;
   margin-top: 5px;
 }
@@ -487,18 +557,22 @@ input:checked + label {
   cursor: pointer;
 }
 .menu_background h2 {
-  padding: 10px 10px 5px 10px;
+  padding: 10px 0 5px 20px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  font-size: 1.3em;
 }
 .menu_background p {
-  padding: 0px 10px;
+  padding: 0px 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .menu_background .price {
   position: absolute;
   right: 10px;
-  bottom: 8px;
+  bottom: 10px;
   text-decoration: solid;
 }
 
@@ -538,6 +612,8 @@ input:checked + label {
   margin-left: 5%;
   margin-top: 40px;
   position: relative;
+  font-family: "Roboto";
+  font-weight: 400;
 }
 
 .underline::before {
@@ -550,12 +626,16 @@ input:checked + label {
   top: 23px;
 }
 
+.underline {
+  margin-bottom: 30px;
+}
+
 /**/
 .btn_fonction {
   background-color: #f6f6f6;
   border-radius: 20px;
   padding: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   margin-left: auto;
   margin-right: auto;
   width: 250px;
@@ -564,10 +644,11 @@ input:checked + label {
   box-shadow: 0px 4px 15px 0px #ded9d9;
 }
 .btn_fonction i {
-  margin-right: 10px;
+  margin-right: 25px;
 }
 .btn_fonction:hover {
-  background-color: #f6cafa;
+  background-color: #fdeaff;
+  opacity: 0.8;
   box-shadow: 0px 4px 15px 7px #ded9d9;
 }
 .btn_fonction:hover i {

@@ -1,4 +1,4 @@
-.load, .loading h1{
+.load, .loading span{
     text-align: center;
     font-family: 'Shrikhand';
     margin-top: 20px;
@@ -38,6 +38,9 @@
     left: 50%;
 }
 
+.loading span{
+    font-size: 1.8em;
+}
 .container{
     animation: fadein 1s 3s 1 alternate backwards ;
 }
@@ -55,4 +58,5 @@
     from   { opacity: 0; }
     to     { opacity: 1;}
 }
+
 
