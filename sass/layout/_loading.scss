@@ -41,9 +41,10 @@
 .loading span{
     font-size: 1.8em;
 }
-.container{
+.container, footer{
     animation: fadein 1s 3s 1 alternate backwards ;
 }
+
 
 @keyframes bounce {
     from {transform: translateY(0);}
