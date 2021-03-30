@@ -60,7 +60,7 @@ h2 {
   font-weight: 700;
 }
 
-.card p {
+.card p, span {
   font-family: "Roboto";
   font-weight: 400;
 }
@@ -334,18 +334,13 @@ input:checked + label {
 }
 
 .plein {
-  background-image: linear-gradient(170deg, #FF79DA, #9356DC);
-  background-clip: text;
+  color: #ff79da;
   font-size: 1.6em;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .black {
   background-color: white;
   font-size: 1.6em;
-  -webkit-text-stroke: 2px;
-  -webkit-text-fill-color: transparent;
 }
 
 /*Coeur Page Menu.html*/
@@ -359,8 +354,6 @@ input:checked + label {
 .black2 {
   background-color: #f6f6f6;
   font-size: 1.6em;
-  -webkit-text-stroke: 2px;
-  -webkit-text-fill-color: transparent;
 }
 
 .menu_background:hover .caption {
@@ -397,9 +390,6 @@ input:checked + label {
   align-items: center;
   justify-content: center;
   border-radius: 0 20px 20px 0;
-  position: absolute;
-  top: 0;
-  right: 0;
 }
 .caption i {
   font-size: 25px;
@@ -543,8 +533,14 @@ input:checked + label {
   flex-direction: row;
   flex-wrap: wrap;
   padding-top: 25px;
-  justify-content: space-around;
   position: relative;
+}
+.title_menu h1 {
+  margin-left: 5%;
+}
+
+.margin_heart {
+  margin-right: 5%;
 }
 
 .menu_background {
@@ -555,6 +551,8 @@ input:checked + label {
   border-radius: 20px;
   position: relative;
   cursor: pointer;
+  display: flex;
+  justify-content: space-around;
 }
 .menu_background h2 {
   padding: 10px 0 5px 20px;
@@ -570,9 +568,7 @@ input:checked + label {
   white-space: nowrap;
 }
 .menu_background .price {
-  position: absolute;
-  right: 10px;
-  bottom: 10px;
+  padding: 31px;
   text-decoration: solid;
 }
 
