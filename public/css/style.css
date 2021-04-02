@@ -545,31 +545,34 @@ input:checked + label {
 
 .menu_background {
   background-color: white;
-  width: 96%;
+  width: 94%;
   height: 70px;
   margin-top: 15px;
   border-radius: 20px;
   position: relative;
   cursor: pointer;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .menu_background h2 {
-  padding: 10px 0 5px 20px;
+  padding: 10px 0 5px 0;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
   font-size: 1.3em;
 }
-.menu_background p {
-  padding: 0px 20px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
+
+.text_menu {
+  padding: 0 0 0 20px;
 }
-.menu_background .price {
-  padding: 31px;
-  text-decoration: solid;
+.text_menu p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.price {
+  padding: 40px 0 0 0;
 }
 
 .check {
