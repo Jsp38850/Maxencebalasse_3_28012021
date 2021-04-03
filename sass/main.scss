@@ -1,5 +1,4 @@
 @import "./utils/variables";
-@import "./utils/functions";
 @import "./utils/mixins";
 
 @import "./base/base";
@@ -8,9 +7,6 @@
 @import "./components/buttons";
 
 @import "./layout/header";
-@import "./layout/nav";
-@import "./layout/container";
-@import "./layout/form";
 @import "./layout/footer";
 @import "./layout/loading";
 @import "./layout/appearance";
